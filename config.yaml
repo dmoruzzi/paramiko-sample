@@ -1,0 +1,19 @@
+servers:
+  - name: DEV1
+    host: server1.dev.example.com
+    username: your_username
+    password: your_password
+    labels: ["Development"]
+    port: 2222  # Specify a non-standard port
+
+  - name: QA1
+    host: server1.qa.example.com
+    username: your_username
+    key_file: /path/to/your/qa_private_key_file
+    labels: ["QA"]
+
+  - name: PROD1
+    host: server1.prod.example.com
+    username: your_username
+    key_file: /path/to/your/prod_private_key_file
+    labels: ["Production"]
